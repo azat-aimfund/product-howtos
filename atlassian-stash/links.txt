@@ -1,0 +1,5 @@
+Configuring the Mail Server to Use Gmail
+https://confluence.atlassian.com/display/STASHKB/Configuring+the+Mail+Server+to+Use+Gmail
+
+Configure SSL for Stash
+https://confluence.atlassian.com/display/STASH/Securing+Stash+with+Tomcat+using+SSL

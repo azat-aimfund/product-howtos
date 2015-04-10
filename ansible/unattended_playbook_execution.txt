@@ -1,0 +1,28 @@
+# создать зашифрованный файл с паролем sudo
+ansible-vault create secret
+
+# после ввода ключа откроется текстовый документ. нужно ввести пароль в формате:
+ansible_sudo_pass: <mysudopassword>
+
+# в нашем playbook добавить переменные из файла. как здесь:
+- hosts: all
+
+  vars_files:
+    - secret
+
+  tasks:
+    ...
+	
+# на данном этапе для проверки можно попробовать запустить playbook с запросом пароля vault
+ansible-playbook playbook.yml --ask-vault-pass
+
+# теперь создаем файл с паролем vault
+touch ~/.vault_pass
+chmod 700 ~/.vault_pass
+
+# при исполнении файл должен выдавать пароль для vault. содержимое файла:
+#!/bin/bash
+echo <my_vault_password>
+
+# теперь playbook можно запустить следующим образом:
+ansible-playbook playbook.yml --vault-password-file ~/.vault_pass

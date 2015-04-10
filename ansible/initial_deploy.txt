@@ -1,0 +1,11 @@
+apt-get install ansible
+
+vi /etc/ansible/hosts
+
+ssh-keygen
+ssh-copy-id -i .ssh/id_rsa.pub udmin@192.168.88.127
+
+ssh-agent bash
+ssh-add ~/.ssh/id_rsa
+
+ansible all -m ping

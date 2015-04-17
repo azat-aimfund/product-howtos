@@ -1,0 +1,10 @@
+Basic ubuntu guide
+https://help.ubuntu.com/community/Xen
+
+
+
+tuning xen for performance (e.g. cpu pinning)
+http://wiki.xen.org/wiki/Tuning_Xen_for_Performance
+
+xl.cfg options
+http://xenbits.xen.org/docs/unstable/man/xl.cfg.5.html

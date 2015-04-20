@@ -1,5 +1,17 @@
 Configuring the Mail Server to Use Gmail
 https://confluence.atlassian.com/display/STASHKB/Configuring+the+Mail+Server+to+Use+Gmail
 
-Configure SSL for Stash
-https://confluence.atlassian.com/display/STASH/Securing+Stash+with+Tomcat+using+SSL
+Using Stash backup client
+https://confluence.atlassian.com/display/STASH/Using+the+Stash+Backup+Client
+
+Stash backup client versions
+https://marketplace.atlassian.com/plugins/com.atlassian.stash.backup.client/versions
+
+Stash upgrade guide
+https://confluence.atlassian.com/display/STASH/Stash+upgrade+guide
+
+Migrate Stash to another server
+https://confluence.atlassian.com/display/STASH/Migrating+Stash+to+another+server
+
+Data recovery and backups
+https://confluence.atlassian.com/display/STASH/Data+recovery+and+backups

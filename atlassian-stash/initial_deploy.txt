@@ -1,1 +1,7 @@
 https://confluence.atlassian.com/display/STASH/Getting+started
+
+Configure SSL for Stash
+https://confluence.atlassian.com/display/STASH/Securing+Stash+with+Tomcat+using+SSL
+
+Connecting stash to an external DB
+https://confluence.atlassian.com/display/STASH/Connecting+Stash+to+an+external+database

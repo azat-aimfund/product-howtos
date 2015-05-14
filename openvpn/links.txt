@@ -1,0 +1,8 @@
+# Installation guide
+https://www.digitalocean.com/community/tutorials/how-to-set-up-an-openvpn-server-on-ubuntu-14-04
+
+# Bridging and Routing examples
+https://community.openvpn.net/openvpn/wiki/BridgingAndRouting
+
+# Only specific routes for client
+http://superuser.com/questions/457020/openvpn-only-route-a-specific-ip-addresses-through-vpn
